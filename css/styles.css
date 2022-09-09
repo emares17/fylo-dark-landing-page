@@ -4,7 +4,7 @@
     --dark-blue-footer: hsl(216, 53%, 9%);
     --dark-blue-test: hsl(219, 30%, 18%);
 
-    --cyan: hsl(176, 68%, 64%);
+    --cyan: hsl(194, 61%, 53%);
     --blue: hsl(198, 60%, 50%);
     --light-red: hsl(0, 100%, 63%);
 
@@ -102,6 +102,24 @@ img {
     line-height: 25px;
 }
 .features a {
+    margin-top: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
     text-decoration: none;
-    
+    width: 240px;
+    height: 48px;
+    background: var(--cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    border-radius: 50px;
+}
+
+.next-features {
+    position: absolute;
+    top: 640px;
+    background: #181F2B;
 }
